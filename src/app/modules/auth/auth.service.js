@@ -57,6 +57,7 @@ const monitorUserIntoDB = async (email) => {
       name: user.name,
       email: user.email,
       role: user.role,
+      photoUrl: user?.photoUrl,
     },
   };
 };
